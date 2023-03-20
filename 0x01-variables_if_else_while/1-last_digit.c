@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - prints out the last digit of the variable n
- * returns 0 - success
+ * Return: 0 (success)
  */
 int main(void)
 {
