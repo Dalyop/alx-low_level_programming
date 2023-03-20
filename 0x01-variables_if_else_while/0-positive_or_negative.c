@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
-/**main - generates a random number
- * if else - tells if the number is positive, negative or just a zero value
+/** main - prints positive if the number is positive and negative
+ * if the number is negative and zero if the number is zero
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,10 +15,12 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	}else if (n == 0)
+	}
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	}else if (n < 0)
+	}
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
